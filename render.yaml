@@ -1,0 +1,27 @@
+# Render Blueprint Specification for 3Metr ERP Platform
+# Documentation: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: 3metr-erp
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npx tsx server.ts
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: APP_URL
+        sync: false
+      - key: ADMIN_EMAIL
+        value: danielm@3csaquarah.com
+      - key: SENDER_EMAIL
+        value: onboarding@resend.dev
+      - key: CONSENT_VERSION
+        value: 2026-11-20-v1
