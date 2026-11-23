@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@theme {
+  /* Precision Ledger & Flow — Color Tokens */
+  --color-metr-primary: #0F766E;
+  --color-metr-primary-deep: #005C55;
+  --color-metr-primary-hover: #0D655E;
+  --color-metr-primary-active: #0B544E;
+  --color-metr-primary-fixed: #9CF2E8;
+  --color-metr-primary-on-container: #A3FAEF;
+
+  --color-metr-navy: #102A43;
+  --color-metr-ink: #172B4D;
+  --color-metr-on-surface: #041B3C;
+  --color-metr-dark-surface: #0B1724;
+  --color-metr-inverse-surface: #1D3052;
+  --color-metr-inverse-on-surface: #EDF0FF;
+
+  --color-metr-mint: #2DD4BF;
+  --color-metr-tertiary: #005C52;
+  --color-metr-tertiary-container: #00776A;
+
+  --color-metr-canvas: #F5F7FA;
+  --color-metr-surface: #FFFFFF;
+  --color-metr-surface-bright: #F9F9FF;
+  --color-metr-surface-low: #F1F3FF;
+  --color-metr-muted: #526579;
+  --color-metr-border-subtle: #E5EBF0;
+  --color-metr-border-default: #D7E0E8;
+  --color-metr-error: #BA1A1A;
+  --color-metr-error-container: #FFDAD6;
+
+  /* Typography Families */
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Spacing Rhythm (8px cadence) */
+  --spacing-metr-xs: 0.25rem;
+  --spacing-metr-sm: 0.5rem;
+  --spacing-metr-md: 1rem;
+  --spacing-metr-lg: 1.5rem;
+  --spacing-metr-xl: 2.5rem;
+  --spacing-metr-gutter: 1.5rem;
+  --spacing-metr-margin: 3rem;
+
+  /* Corner Geometry (Rounded Level 2) */
+  --radius-metr-sm: 0.25rem;
+  --radius-metr-default: 0.5rem;
+  --radius-metr-md: 0.75rem;
+  --radius-metr-lg: 1rem;
+  --radius-metr-xl: 1.5rem;
+
+  /* Calibrated Elevation */
+  --shadow-metr-resting: 0 1px 3px rgba(16, 42, 69, 0.04), 0 1px 2px rgba(16, 42, 69, 0.02);
+  --shadow-metr-hover: 0 10px 24px -4px rgba(16, 42, 69, 0.08), 0 4px 8px -2px rgba(16, 42, 69, 0.04);
+}
+
+:root {
+  --metr-color-primary: #0F766E;
+  --metr-color-primary-deep: #005C55;
+  --metr-color-primary-hover: #0D655E;
+  --metr-color-primary-active: #0B544E;
+  --metr-color-navy: #102A43;
+  --metr-color-ink: #172B4D;
+  --metr-color-dark-surface: #0B1724;
+  --metr-color-mint: #2DD4BF;
+  --metr-color-canvas: #F5F7FA;
+  --metr-color-surface: #FFFFFF;
+  --metr-color-muted: #526579;
+  --metr-color-border-subtle: #E5EBF0;
+  --metr-color-border-default: #D7E0E8;
+  --metr-color-error: #BA1A1A;
+  --metr-shadow-resting: 0 1px 3px rgba(16, 42, 69, 0.04), 0 1px 2px rgba(16, 42, 69, 0.02);
+  --metr-shadow-hover: 0 10px 24px -4px rgba(16, 42, 69, 0.08), 0 4px 8px -2px rgba(16, 42, 69, 0.04);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: var(--metr-color-ink);
+    background-color: var(--metr-color-canvas);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  button:not(:disabled),
+  a[href] {
+    cursor: pointer;
+  }
+}
+
+.font-tabular {
+  font-variant-numeric: tabular-nums slashed-zero;
+  font-feature-settings: "tnum" 1, "zero" 1;
+}
+
+.metr-card {
+  background-color: var(--metr-color-surface);
+  border: 1px solid var(--metr-color-border-default);
+  box-shadow: var(--metr-shadow-resting);
+  transition: box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms cubic-bezier(0.16, 1, 0.3, 1), transform 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.metr-card-interactive:hover {
+  box-shadow: var(--metr-shadow-hover);
+  border-color: rgba(15, 118, 110, 0.28);
+}
+
+.metr-focus:focus-visible {
+  outline: 2px solid #2DD4BF;
+  outline-offset: 2px;
+}
+
+.metr-input {
+  height: 44px;
+  background-color: #FFFFFF;
+  border: 1px solid #D7E0E8;
+  border-radius: 0.5rem;
+  color: #172B4D;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.metr-input::placeholder {
+  color: #526579;
+}
+
+.metr-input:focus {
+  outline: none;
+  border-color: #0F766E;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
+}

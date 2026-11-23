@@ -1,0 +1,249 @@
+---
+name: Precision Ledger & Flow
+colors:
+  surface: '#FFFFFF'
+  surface-dim: '#cadaff'
+  surface-bright: '#f9f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f1f3ff'
+  surface-container: '#e8edff'
+  surface-container-high: '#e0e8ff'
+  surface-container-highest: '#d7e2ff'
+  on-surface: '#041b3c'
+  on-surface-variant: '#3e4947'
+  inverse-surface: '#1d3052'
+  inverse-on-surface: '#edf0ff'
+  outline: '#6e7977'
+  outline-variant: '#bdc9c6'
+  surface-tint: '#006a63'
+  primary: '#005c55'
+  on-primary: '#ffffff'
+  primary-container: '#0f766e'
+  on-primary-container: '#a3faef'
+  inverse-primary: '#80d5cb'
+  secondary: '#49607c'
+  on-secondary: '#ffffff'
+  secondary-container: '#c7dfff'
+  on-secondary-container: '#4b637e'
+  tertiary: '#005c52'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00776a'
+  on-tertiary-container: '#84ffeb'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#9cf2e8'
+  primary-fixed-dim: '#80d5cb'
+  on-primary-fixed: '#00201d'
+  on-primary-fixed-variant: '#00504a'
+  secondary-fixed: '#d1e4ff'
+  secondary-fixed-dim: '#b0c9e8'
+  on-secondary-fixed: '#011d35'
+  on-secondary-fixed-variant: '#314863'
+  tertiary-fixed: '#62fae3'
+  tertiary-fixed-dim: '#3cddc7'
+  on-tertiary-fixed: '#00201c'
+  on-tertiary-fixed-variant: '#005047'
+  background: '#f9f9ff'
+  on-background: '#041b3c'
+  surface-variant: '#d7e2ff'
+  canvas: '#F5F7FA'
+  muted-text: '#526579'
+  border-subtle: '#E5EBF0'
+  border-default: '#D7E0E8'
+  dark-surface: '#0B1724'
+typography:
+  display:
+    fontFamily: Manrope
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-mobile:
+    fontFamily: Manrope
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Manrope
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Manrope
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Manrope
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Manrope
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  title:
+    fontFamily: Manrope
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  eyebrow:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.08em
+  tabular-data:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+### Brand Personality & Core Ethos
+This design system embodies finance-grade precision, operational discipline, systemic connectivity, and calm clarity. Designed for founders, operational executives, and financial leaders, the aesthetic rejects the neon gradients, playful blobbiness, and micro-animations of consumer software in favor of institutional trust, deliberate hierarchy, and uncompromised visibility. It balances the computational authority of a double-entry ledger with modern, humane clarity.
+
+### Visual Style Movement
+The design movement is **Corporate Modern with High-Clarity Technical Restraint**. It avoids hyper-skeuomorphism and decorative glassmorphism. Surfaces are clean, architectural, and grounded by low-contrast borders, solid structural fills, high-contrast ink typography, and intentional dark-navy contrast anchors. Depth is communicated through calibrated surface layers rather than dramatic drop shadows.
+
+### Emotional Response
+Interactions evoke control, certainty, stability, and speed. Users experience zero cognitive friction or layout ambiguity; dense operational flows (such as Quote-to-Cash or Procure-to-Pay) feel systematic, traceable, and calm.
+
+## Colors
+
+### Hierarchy & Application Rules
+- **Primary Teal (`#0F766E`)**: Reserved strictly for high-priority interactive conversion elements (primary CTAs, key focus active states, validated inputs) and active navigation pills. Used with surgical restraint to maintain its semantic weight.
+- **Secondary Navy (`#102A43`)**: Provides executive authority and grounding. Utilized for major anchors, structural navigation bars, technical trust badges, and contrast-inversion sections (e.g., Trust & Infrastructure sections and global footer).
+- **Tertiary Mint (`#2DD4BF`)**: Functions strictly as an active flow accelerator—directional node indicators, stage progress highlights in workflow pipes, and small high-visibility telemetry dots. It is never used as standard body or card background fills.
+- **Neutral Ink (`#172B4D`)**: The primary typographic voice, delivering optimal contrast against white cards and light canvas backdrops without the harshness of pure black.
+- **Canvas (`#F5F7FA`) & Surface (`#FFFFFF`)**: Establishes crisp spatial containment. Base canvases use muted gray-blue, while transactional workspaces, tables, and metric cards elevate to pure white surfaces bounded by structural borders.
+- **Dark Surface (`#0B1724`)**: Deepest contrast base for foundational security, audit log modules, and code-grade ledger views.
+
+## Typography
+
+### Structural Pairings & Rules
+- **Headings (Manrope, 600–800)**: Manrope provides modern geometric precision with stable horizontal proportions. Headlines must use tight letter-spacing to deliver confident editorial and enterprise weight without feeling sterile.
+- **Body & Controls (Inter, 400–700)**: Inter ensures legibility across complex multi-column tables, ERP schemas, data inputs, and high-density labels.
+- **Financial & Numerical Data**: All monetary quantities, inventory counts, audit dates, and ledger rows must activate font features `tnum` (tabular numerals) and `zero` (slashed or distinct zero) to ensure column alignment in dense operational views.
+- **Eyebrows & Metadata**: Uppercase micro-labels in 11px Inter Bold with `letterSpacing: 0.08em` are systematically used to categorize roadmap milestones, workflow states, and subsystem indicators.
+
+## Layout & Spacing
+
+### Grid Philosophy & Breakpoints
+The layout adopts a disciplined **12-column fluid grid** constrained to a `1440px` maximum viewport on desktop to guarantee predictable reading lines and stable dashboard metrics.
+
+- **Desktop (1200px – 1440px+)**: 12 columns, 24px (`1.5rem`) gutters, 48px (`3rem`) page margins. Hero visual splits 5:7 between text framing and live interactive dashboard previews.
+- **Tablet (768px – 1024px)**: 8 columns, 20px gutters, 32px margins. Complex multi-node sequences reflow to 2x2 modular blocks or directional scroll bands.
+- **Mobile (375px – 430px)**: 4 columns, 16px (`1rem`) gutters, 20px (`1.25rem`) margins. Multi-column cards stack strictly vertically into single-column layouts with edge-to-edge touch targets.
+
+### Spacing Cadence
+Spacing follows an exact 8px base rhythm (`0.5rem = 8px`, `1rem = 16px`, `1.5rem = 24px`, `2.5rem = 40px`). Form fields and card paddings strictly conform to internal tokens (`space-md` to `space-lg`), eliminating arbitrary gaps.
+
+## Elevation & Depth
+
+### Structural Tonal Stacking
+Rather than depending on heavy diffuse shadows, elevation is achieved via **low-contrast architectural outlines and calibrated surface fills**:
+
+1. **Floor / Base Canvas (`#F5F7FA`)**: The foundation level of the operational workspace.
+2. **Elevated Surface (`#FFFFFF`)**: Primary functional containers, data cards, form groups, and dashboard panels sit on white surfaces bounded by a crisp 1px `#D7E0E8` structural border.
+3. **Ghost Elevation (Resting Cards)**: Surfaces use an ultra-subtle, ambient shadow:
+   `box-shadow: 0 1px 3px rgba(16, 42, 69, 0.04), 0 1px 2px rgba(16, 42, 69, 0.02)`.
+4. **Interactive Hover / Flyout**: Modals, dropdown pickers, and active workflow cards rise smoothly using:
+   `box-shadow: 0 10px 24px -4px rgba(16, 42, 69, 0.08), 0 4px 8px -2px rgba(16, 42, 69, 0.04)` with a shifted border tone to `#0F766E` at 20% opacity.
+5. **Dark Contrast Anchors (`#102A43` / `#0B1724`)**: Deep structural sections invert the color scheme, using `#172B4D` inner borders to establish depth without diffuse blur.
+
+## Shapes
+
+### Corner Geometry
+The system employs **Rounded Level 2**, matching the balanced, purposeful geometry of modern business software:
+- Standard UI interactive components (buttons, input fields, badges): `0.5rem` (8px).
+- Functional cards, data grids, and modular panels: `rounded-lg` (`1rem` / 16px).
+- Large dashboard viewports and section containers: `rounded-xl` (`1.5rem` / 24px).
+- Status indicator tags and micro-pills: Full radius (`9999px`) where appropriate for tags.
+
+### Vector Details
+In alignment with the brand monogram, line terminals on technical workflow nodes, timeline connectors, and process schematics use precise, rounded stroke caps (`stroke-linecap="round"`) with an active stroke width calibrated to 2px or 3px relative to component scale.
+
+## Components
+
+### Buttons
+- **Primary Action**: Solid `#0F766E` background, `#FFFFFF` Inter SemiBold text, 8px border-radius (`0.5rem`), padding: 12px 20px. Hover: `#0D655E`. Active: `#0B544E`. Focus: 2px offset outline in `#2DD4BF`.
+- **Secondary Action**: Background `#FFFFFF`, 1px solid border `#D7E0E8`, text `#172B4D`. Hover: `#F5F7FA` surface with border tone `#526579`.
+- **Tertiary / Subtle**: Transparent background, text `#102A43`, hover background `#E5EBF0`.
+
+### Workflow Cards & Connectors (The "Connected Movement" Signature)
+- Horizontal pipeline cards representing lifecycle stages: **Lead → Quote → Order → Invoice → Payment → Ledger**.
+- Cards use `#FFFFFF` background with 1px `#D7E0E8` borders, padded with `1.25rem`.
+- Active stage lines are linked by 2px `#D7E0E8` connectors with a centered 8px circular node. When completed or active, lines illuminate to solid `#0F766E` with an interior accent pulse of `#2DD4BF`.
+- The terminal "Ledger" node features an authoritative navy-tinted tag indicating balanced double-entry validation.
+
+### Input Fields & Controls
+- **Inputs**: Background `#FFFFFF`, 1px solid `#D7E0E8`, 8px radius, text `#172B4D`, placeholder `#526579`. Height: 44px for accessible desktop/mobile touch targets. Focus state: 1px solid `#0F766E` with a 3px ring in `rgba(15, 118, 110, 0.15)`.
+- **Checkboxes & Radios**: 18px square/circle with `#D7E0E8` borders; selected state fills `#0F766E` with crisp white iconography.
+
+### Chips & Phase Indicators
+- **Phase 1 (Live/Core)**: Subtle Teal background (`rgba(15, 118, 110, 0.08)`), text `#0F766E`, border `1px solid rgba(15, 118, 110, 0.2)`.
+- **Phase 2 (Roadmap/Operations)**: Subtle Blue/Navy background (`rgba(16, 42, 69, 0.06)`), text `#102A43`, border `1px solid #D7E0E8`.
+- **Phase 3 (Expansion)**: Neutral slate background (`#F5F7FA`), text `#526579`, border `1px solid #E5EBF0`.
+
+### Accordions (FAQ)
+- Clean, non-bordered horizontal cards separated by 1px `#E5EBF0` dividers.
+- Expansion triggers use bold Manrope titles (`18px`) that shift color from `#172B4D` to `#0F766E` when active, with smooth rotational chevron indicators.
+
+### Metric Cards
+- White surface, 16px corner radius, containing an upper eyebrow label (11px, `#526579`), a prominent Manrope numeral (28px tabular, `#172B4D`), and a bottom directional micro-badge (`#0F766E` or `#526579`) tracking period deltas.
